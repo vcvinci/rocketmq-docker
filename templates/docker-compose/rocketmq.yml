@@ -58,7 +58,7 @@ services:
         aliases:
           - rmqbroker1
   mqconsole:
-    image: styletang/rocketmq-console-ng
+    image: apacherocketmq/rocketmq-console:2.0.0
     container_name: mqconsole
     links:
       - namesrv
